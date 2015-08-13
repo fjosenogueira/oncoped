@@ -59,11 +59,13 @@ Ele deverá facilitar a gestão das atividades diárias de um serviço de quimio
 O Serviço de OncoHematologia do Centro Pediátrico do Câncer (CPC) atende, em média, cerca de 80 pacientes/dia. São consultas prévias necessárias para avaliação clínica e prescrição de quimioterápicos. Seu público é formado por crianças e jovens portadores de câncer, oriundos das mais diversas regiões do Ceará, bem como de outros Estados.
 O CPC conta há 15 anos com um sistema chamado ONCOPED, desenvolvido em Delphi 4 e tendo como base de dados tabelas paradox. O mesmo possui, dentre outras funcionalidades, a possibilidade de gerar prescrições de medicamentos baseadas no protocolo de tratamento em uso pelo paciente, bem como tornar possível a previsão do próximo dia de tratamento/consulta, e que droga será utilizada. Na época representou um notável avanço, pois tais características do sistema possibilitava ao oncologista dispor de um tempo maior para conversar com o paciente e seu acompanhante, melhorando o relacionamento médico-paciente, promovendo um atendimento mais humanizado uma vez que atividades rotineiras e repetitivas ficavam a cargo do sistema.
 Atualmente o referido sistema encontra-se em desuso pois, além de seus bugs constantes e sua manutenção complexa, é necessário um conhecimento profundo do funcionamento do sistema para a inclusão de novos protocolos. Isso fez com que apenas a funcionalidade de agendamento seja utilizada do sistema. 
-Principais motivos para o desuso:
-•	Bugs constantes relacionados em parte pela limitação física do tamanho de tabelas paradox, ocasionando corrompimento dos arquivos de índices e dados (quem lembra de DBF?);
-•	A inclusão de novos protocolos de tratamento é muito complexa, dependendo de um profissional que conheça o funcionamento interno do sistema. Resultou no retorno a prescrição “na mão” reduzindo o tempo de contato médico-paciente e lentidão no atendimento;
-•	Apesar de possuir  o código fonte do aplicativo sua manutenção é inviável, pois não há qualquer documentação e seu código foi escrito de forma muito obscura, sem qualquer técnica que possibilitasse um entendimento posterior (nível Magaiver);
-•	O sistema roda apenas em uma máquina.
+Principais motivos para o desuso: 
+
+* Bugs constantes relacionados em parte pela limitação física do tamanho de tabelas paradox, ocasionando corrompimento dos arquivos de índices e dados (quem lembra de DBF?);
+
+*	A inclusão de novos protocolos de tratamento é muito complexa, dependendo de um profissional que conheça o funcionamento interno do sistema. Resultou no retorno a prescrição “na mão” reduzindo o tempo de contato médico-paciente e lentidão no atendimento;
+* Apesar de possuir  o código fonte do aplicativo sua manutenção é inviável, pois não há qualquer documentação e seu código foi escrito de forma muito obscura, sem qualquer técnica que possibilitasse um entendimento posterior (nível Magaiver);
+* O sistema roda apenas em uma máquina.
 
 
 === Atores
