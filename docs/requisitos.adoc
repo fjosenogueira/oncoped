@@ -86,11 +86,30 @@ Principais motivos para o desuso:
 
 === Manter Usuário
 * Gerenciar perfil usuário;
-* Integração via AD na Rede (recurso disponível na rede do HIAS).
+* Autenticar no Active Directory (Samba4) em uso na rede do HIAS
+
+=== Buscar Paciente no HOSPUB
+* Possibilitar a consulta do paciente na base de dados do HIAS através de chamadas ao webservice existe, permitindo atualizar os dados;
+* Usará como parâmetro de busca o número do prontuário, código obrigatório e único dentro da unidade hospitalar;
 
 === Manter Paciente
+* Possibilidade de adicionar/atualizar dados  com base nas informações contidas no HOSPUB;
+* Armazenar dados pessoais do paciente, bem como do responsável;
+* Diagnóstico recebido e protocolo a ser utilizado;
+* Peso e Estatura atual do paciente (calculo da superfície corpórea);
+
+=== Atualizar Peso e Estatura
+* Registrar peso, estatura e data da aferição;
+* Manter histórico de registros anteriores para futura avaliação.
 
 === Manter Médico
+* Dados pessoais do médico;
+* Especialidade / Formação;
+
+=== Manter Escala
+* Montar escala de trabalho mensal dos médicos;
+* Inserir feriados;
+
 
 === Manter Protocolo
 
