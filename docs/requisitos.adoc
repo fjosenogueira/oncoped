@@ -29,9 +29,9 @@ Este documento se destina-se aos desenvolvedores e implementadores participantes
 | fjosenogueira@gmail.com
 | Desenvolvedor/Analista
 
-| Antônio Gomes
-| xxxxx
-| xxxxx
+| Antonio Gomes de Castro Jr
+| antonio.jr@outlook.com
+| Desenvolvedor/Analista
 
 
 |===
